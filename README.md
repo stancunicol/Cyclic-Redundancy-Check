@@ -11,12 +11,19 @@ Cyclic Redundancy Check (CRC) – a generator polynomial is applied to the binar
 # Features
 
 ✔️ Validates that input messages are binary.
+
 ✔️ Ensures that the message length is greater than the number of generator polynomial coefficients.
+
 ✔️ Extends the message by appending zeros equal to the polynomial’s degree.
+
 ✔️ Performs successive XOR operations to compute the CRC remainder.
+
 ✔️ Displays intermediate XOR results.
+
 ✔️ Simulates a corrupted bit and detects its exact position.
+
 ✔️ Applies XOR between the extended message and the final remainder to generate the final encoded message.
+
 ✔️ Displays both the 2D parity matrix and CRC results.
 
 # Example Run
