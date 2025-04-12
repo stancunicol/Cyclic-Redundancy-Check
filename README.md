@@ -2,9 +2,7 @@
 
 # Description
 
-This project implements two methods for error detection and correction:
-
-Two-Dimensional Parity – the binary message is placed in a matrix, and parity bits are calculated for both rows and columns. The program allows simulating a corrupted bit and identifying its position.
+This project implements a method for error detection and correction:
 
 Cyclic Redundancy Check (CRC) – a generator polynomial is applied to the binary message to compute the remainder of the polynomial division using successive XOR operations.
 
@@ -20,11 +18,8 @@ Cyclic Redundancy Check (CRC) – a generator polynomial is applied to the binar
 
 ✔️ Displays intermediate XOR results.
 
-✔️ Simulates a corrupted bit and detects its exact position.
-
 ✔️ Applies XOR between the extended message and the final remainder to generate the final encoded message.
 
-✔️ Displays both the 2D parity matrix and CRC results.
 
 # Example Run
 
